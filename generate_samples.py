@@ -11,7 +11,7 @@ from constants import eos,empty
 def lpadd(x): 
     """Left (pre) pad a description to CONTENT_SEQ_LEN and then add eos.
     The eos is the input to predicting the first word in the headline
-    #Prathibha: If n is not greater than CONTENT_SEQ_LEN then (CONTENT_SEQ_LEN-n) zeros will be added to the prefix of x
+    # If n is not greater than CONTENT_SEQ_LEN then (CONTENT_SEQ_LEN-n) zeros will be added to the prefix of x
     Here x is the list containing the ids of the content words(tokens)
     If n is greater than CONTENT_SEQ_LEN then we cut the list to using x[-CONTENT_SEQ_LEN:] (which gives the CONTENT_SEQ_LEN number of ids from the end) 
     and assign n=CONTENT_SEQ_LEN so that the return stmt changes to x+[eos]
