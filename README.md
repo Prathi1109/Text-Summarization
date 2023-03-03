@@ -1,6 +1,12 @@
 # Text-Summarization
 **Summarizing the text from research papers using RNN Encoder Decoder**
 
+
+![Domain](Domain.png)
+
+
+
+
 In this project, we have discussed an approach of text summarization of research papers using RNN encoder and decoder with the attention mechanism. Since we were initially unable to train on the research papers dataset, which consisted of larger input sequences, we have tried to summarize the NEWS articles (which had com- paratively smaller input sequences). 
 
 
